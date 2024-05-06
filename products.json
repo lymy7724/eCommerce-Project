@@ -1,0 +1,76 @@
+{
+    "items": [
+        {
+            "product name": "Highland Cow",
+            "product price": "$40",
+            "product description": "Crochet Plushie - Handmade Farm Animal - Cow",
+            "picture-url": "pictures/cow.avif"
+        },
+        {
+            "product name": "Magical Owl",
+            "product price": "$30",
+            "product description": "Crochet Plushie - Handmade Magical Owl",
+            "picture-url": "pictures/owl.avif"
+        },
+        {
+            "product name": "Rapunzel",
+            "product price": "$40",
+            "product description": "Crochet Plushie - Rapunzel - Tangled",
+            "picture-url": "pictures/rapunzel3.webp"
+        },
+        {
+            "product name": "Ronaldo",
+            "product price": "$40",
+            "product description": "Crochet Plushie - Cristiano Ronaldo - Portugal",
+            "picture-url": "pictures/ronaldo.avif"
+        },
+        {
+            "product name": "Superheros",
+            "product price": "$30",
+            "product description": "Crochet Plushie - Superheros - Marvel and DC Variety",
+            "picture-url": "pictures/heros2.webp"
+        },
+        {
+            "product name": "Potted Flowers",
+            "product price": "$30",
+            "product description": "Crochet Plushie - Potted Flowers - Tulips/Sunflowers/Roses",
+            "picture-url": "pictures/flowers2.webp"
+        },
+        {
+            "product name": "Giraffe",
+            "product price": "$40",
+            "product description": "Crochet Plushie - Handmade Zoo Animal - Basic Giraffe",
+            "picture-url": "pictures/griaffe.avif"
+        },
+        {
+            "product name": "Turtles",
+            "product price": "$30",
+            "product description": "Crochet Plushie - Handmade Zoo Animal - Blue Shelled Turtles",
+            "picture-url": "pictures/turtles.avif"
+        },
+        {
+            "product name": "Dumplings",
+            "product price": "$25",
+            "product description": "Crochet Plushie - Handmade Appetizers - Dumplings Variety",
+            "picture-url": "pictures/dumplings.avif"
+        },
+        {
+            "product name": "Car Pendant",
+            "product price": "$25",
+            "product description": "Crochet Plushie - Handmade Car Pendant - Spiderman Variety",
+            "picture-url": "pictures/spiderman.avif"
+        },
+        {
+            "product name": "Ramen",
+            "product price": "$35",
+            "product description": "Crochet Plushie - Handmade Ramen Bowl - Red with White Lining",
+            "picture-url": "pictures/ramen.avif"
+        },
+        {
+            "product name": "Hagrid",
+            "product price": "$40",
+            "product description": "Crochet Plushie - Handmade Harry Potter Character - Hagrid",
+            "picture-url": "pictures/hagrid.avif"
+        }
+    ]
+}
