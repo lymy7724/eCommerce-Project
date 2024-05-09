@@ -297,6 +297,12 @@ form {
     background-color: rgba(117, 142, 223, 0.819);
     border: 0;
     color: white;
+    font-size: 15px;
+}
+
+#submit:hover {
+    background-color: white;
+    color: rgba(117, 142, 223, 0.819);
 }
 
 
