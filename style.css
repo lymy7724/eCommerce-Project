@@ -9,18 +9,18 @@ html {
     background-color: white;
     width: 100vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 20px;
 }
 
 #logo {
     height: auto;
-    width: 200px;
+    width: 100px;
     border-radius: 50%;
 }
 
-ul {
+.headlink {
     list-style: none;
     font-size: 20px;
     font-family: sans-serif;
@@ -30,6 +30,7 @@ ul {
     gap: 80px;
     justify-content: center;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 ul a {
@@ -40,6 +41,7 @@ ul a {
 ul li:hover {
     color: rgb(68, 129, 228);
 }
+
 
 /* Home Page */
 #hero {
@@ -80,8 +82,8 @@ h3 {
 }
 
 .disney {
-    width: 400px;
-    height: 350px;
+    width: 350px;
+    height: 300px;
 }
 
 .favorites {
@@ -92,6 +94,12 @@ h3 {
 .popular {
     background-color: rgba(107, 173, 230, 0.28);
     padding: 20px;
+}
+
+.harry {
+    background-color: rgba(107, 173, 230, 0.28);
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 
@@ -126,6 +134,14 @@ h3 {
     padding-top: 60px;
 }
 
+.showcase-text2 {
+    width: 40%;
+    text-align: center;
+    padding-right: 90px;
+    padding-top: 60px;
+}
+
+
 .fanitem {
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -137,8 +153,7 @@ h3 {
     font-size: 20px;
     font-weight: lighter;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 500px;
-
+    width: 700px;
 }
 
 /* Product Page */
@@ -215,6 +230,106 @@ p {
     justify-content: center;
 }
 
+.cart-container {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
 /* Contact Page */
+#form-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 0;
+    background-color: rgba(107, 173, 230, 0.28);
+    display: flex;
+    flex-direction: row;
+}
+
+.small-form-cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+
+.frida {
+    height: 800px;
+    width: 700px;
+}
+
+h5 {
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+form {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#name,
+#email {
+    width: 250px;
+    height: 45px;
+}
+
+#message {
+    width: 100%;
+    height: 200px;
+}
+
+#submit {
+    height: 50px;
+    background-color: rgba(117, 142, 223, 0.819);
+    border: 0;
+    color: white;
+}
+
 
 /* Footer */
+footer {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(117, 142, 223, 0.819);
+    border-radius: 50%;
+    padding: 5px;
+
+}
+
+.ftlink {
+    list-style: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
