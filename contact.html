@@ -38,20 +38,20 @@
         <img src="pictures/frida.avif" class="frida" alt="crochet frida khalo">
         <div class="small-form-cont">
             <h5>Leave us a question or comment!</h5>
-            <form>
+            <form action="/submit-info" name="myForm">
                 <div class="name-email">
                     <div>
                         <p>NAME</p>
-                        <input id="name" type="text">
+                        <input id="name" type="text" name="name">
                     </div>
                     <div>
                         <p>EMAIL *</p>
-                        <input id="email" type="email" required>
+                        <input id="email" type="email" name="email" required>
                     </div>
                 </div>
-                <p>MESSAGE</p>
-                <input id="message">
-                <input type="submit" value="SEND MESSAGE" id="submit">
+                <p>MESSAGE *</p>
+                <input id="message" name="message" required>
+                <button type="submit" id="submit">SEND MESSAGE</button>
             </form>
         </div>
     </div>
