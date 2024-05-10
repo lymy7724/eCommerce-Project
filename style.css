@@ -506,12 +506,8 @@ footer {
         margin-top: 90px;
     }
 
-    .fanitem {
-        font-size: 30px;
-    }
-
     .fanitemp {
-        width: 200px;
+        width: 250px;
     }
 
     .socials {
@@ -525,5 +521,19 @@ footer {
 
     #form-container {
         padding-top: 10px;
+    }
+}
+
+@media (min-width:993px) and (max-width: 1499px) {
+    .fanitemp {
+        width: 400px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:1500px) {
+    .fanitemp {
+        width: 650px;
+        flex-wrap: wrap;
     }
 }
